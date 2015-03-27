@@ -27,7 +27,7 @@ def new_clmn_input(x):
     except:
         return x
 
-
+# aqui eu só fiz uma func f(x) = x ** 2
 #----------------------------------------------------------
 
 
