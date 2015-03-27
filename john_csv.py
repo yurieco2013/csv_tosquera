@@ -1,4 +1,4 @@
-
+﻿
 import csv
 
 
@@ -41,7 +41,7 @@ def read_file(seu_arquivo_csv, HEADER=True):
     counter = 0
 
     with open(seu_arquivo_csv, newline='\n') as read_file:
-        reader = csv.reader(read_file, delimiter=',')
+        reader = csv.reader(read_file, delimiter=';')
 
         for row in reader:
             counter += 1
@@ -54,7 +54,7 @@ def read_file(seu_arquivo_csv, HEADER=True):
 def write_file(lst):
     final_name = input_file(new_file=True)
     with open(final_name, mode='w', newline='\n') as read_file:
-        writer = csv.writer(read_file, delimiter='\t')
+        writer = csv.writer(read_file, delimiter=';')
         for x in lst:
             writer.writerow(x)
 
