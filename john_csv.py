@@ -47,7 +47,6 @@ def read_file(seu_arquivo_csv, HEADER=True):
             counter += 1
             lst.append(row)
         clmns = len(row)
-    print (lst[0][1])
 
     return (lst, HEADER, counter, clmns)
 
