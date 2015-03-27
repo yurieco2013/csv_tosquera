@@ -1,5 +1,7 @@
 #Coloca uma nova coluna no seu arquivo csv
 
+#python 3.4 
+
 ### se não me engano no pandas tem uma função que faz isso... 
 ### com r dá pra fazer de olho fechado
 
