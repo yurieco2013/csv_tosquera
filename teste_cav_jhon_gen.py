@@ -12,7 +12,3 @@ for x in coluna1:
     with open ('teste.csv', mode='a', newline='\n') as wt1:
         wter=csv.writer(wt1, delimiter=',')
         wter.writerow(rowt)
-x = open('teste.csv')
-
-for line in x:
-    print (line)
