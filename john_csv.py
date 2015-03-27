@@ -1,6 +1,6 @@
 
 import csv
-import random as rd
+
 
 
 def input_file(new_file=False):
@@ -54,7 +54,6 @@ def read_file(seu_arquivo_csv, HEADER=True):
 
 def write_file(lst):
     final_name = input_file(new_file=True)
-    print(type(lst))
     with open(final_name, mode='w', newline='\n') as read_file:
         writer = csv.writer(read_file, delimiter='\t')
         for x in lst:
@@ -78,5 +77,4 @@ def add_column():
 
 
 x = add_column()
-print(type(x))
 write_file(x)
