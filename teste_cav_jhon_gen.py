@@ -3,7 +3,7 @@ import csv
 coluna1= list(range(501))
 coluna2= list(range(500,1001))
 rowt =['coluna1', 'coluna2']
-
+#blblblbl
 with open ('teste.csv', mode='w',newline='\n') as wt:
     wter=csv.writer(wt, delimiter=';')
     wter.writerow(rowt)
